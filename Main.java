@@ -11,7 +11,7 @@ public class Main {
 
     Item doorKey = new Item("Door Key", "\n\n It's a small key that looks like it could probably fit in a door. There's only one door in the room, think we should try our luck?");
     Lock doorLock = new Lock("Door Lock", doorKey);
-    Object door = new Object("Door", "\n\n It's a door, think it'll lead to the exit? \n Okay it's locked, but it's the only door in the room so no way it isn't the way out. There's gotta be a key around here somewhere...", "It's a door, which is open now !!",doorLock); //fsr i can't inspect this
+    Object door = new Object("Door", "\n\n It's a door, think it'll lead to the exit? \n Okay it's locked, but it's the only door in the room so no way it isn't the way out. There's gotta be a key around here somewhere...", "It's a door, which is open now !!",doorLock); 
       
     Item drawerKey = new Item("Drawer Key", "\n\n It's a small key...no clue what it's for");
     Lock drawerLock = new Lock("Drawer Lock", drawerKey);
@@ -196,7 +196,8 @@ public class Main {
   System.out.println("OH MY GOD WE DID IT, WE'RE OUT"); //if hope > 0
 
 }
+  /*
   public static void respond(int response){
     
-  }
+  } */
 }
